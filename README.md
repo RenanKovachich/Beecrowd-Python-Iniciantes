@@ -10,14 +10,14 @@
 
 # 📱 Criação e Colaboração
 
-*Renan Kovachich de Oliveira Reis
+Renan Kovachich de Oliveira Reis
 
 # 🤠 Intuito
 
-*Auxiliar e guiar quem está estudando Python;
+Auxiliar e guiar quem está estudando Python;
 <br>
-*Mostar resoluções dos problemas 'Iniciante' do <a href="https://www.beecrowd.com.br/judge/pt/">Beecrowd</a>.
+Mostar resoluções dos problemas 'Iniciante' do <a href="https://www.beecrowd.com.br/judge/pt/">Beecrowd</a>.
 
 # ✔ Lingaugens Utilizadas
 
-**Python.
+Python
