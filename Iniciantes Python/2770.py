@@ -1,8 +1,19 @@
+import sys
+
 while True:
     try:
-        x, y, m = map(int, input().split())
+        inputs = list(map(int, sys.stdin.readline().split()))
+        x, y, m = inputs[0], inputs[1], inputs[2]
+        min_dim, max_dim = min(x, y), max(x, y)
+
         for i in range(m):
-            xi, yi = map(int, input().split())
-            print('Sim' if (xi <= x and yi <= y) or (xi <= y and yi <= x) else 'Nao')
-    except EOFError:
+            inputs = list(map(int, sys.stdin.readline().split()))
+            xi, yi = inputs[0], inputs[1]
+            if xi <= min_dim and yi <= max_dim:
+                print('Sim')
+            elif xi <= max_dim and yi <= min_dim:
+                print('Sim')
+            else:
+                print('Nao')
+    except:
         break
